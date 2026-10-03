@@ -1,0 +1,14 @@
+{
+  "name": "harbour-walks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Harbour Walks: a fictional mobile app for finding coastal walking trails. Demo project for the ShipSure Quick Start video.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "date-fns": "4.4.0",
+    "lodash": "4.17.20"
+  }
+}
