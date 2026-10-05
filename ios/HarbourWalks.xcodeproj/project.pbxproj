@@ -1,0 +1,2 @@
+// !$*UTF8*$!
+{ objects = { A1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; }; B1 = { buildSettings = { SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = au.example.harbourwalks; }; }; }; }

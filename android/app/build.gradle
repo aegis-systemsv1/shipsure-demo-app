@@ -1,0 +1,16 @@
+apply plugin: "com.android.application"
+android {
+  defaultConfig {
+    applicationId "au.example.harbourwalks"
+    targetSdkVersion rootProject.ext.targetSdkVersion
+  }
+  signingConfigs { release { storeFile file(System.getenv("RELEASE_KEYSTORE") ?: "release.keystore") } }
+  buildTypes {
+    release {
+      signingConfig signingConfigs.release
+      minifyEnabled true
+    }
+  }
+}
+dependencies {
+}
